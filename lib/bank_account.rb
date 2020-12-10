@@ -7,8 +7,8 @@ class BankAccount
     @status = status
   end
 
-  def deposit(num)
-    balance = balance + num
+  def display_balance
+    puts balance
   end
 
 
